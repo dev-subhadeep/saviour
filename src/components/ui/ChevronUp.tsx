@@ -1,6 +1,6 @@
 import React from "react"
 
-const ChevronDown = () => {
+const ChevronUp = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -13,10 +13,10 @@ const ChevronDown = () => {
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+        d="m4.5 15.75 7.5-7.5 7.5 7.5"
       />
     </svg>
   )
 }
 
-export default ChevronDown
+export default ChevronUp
