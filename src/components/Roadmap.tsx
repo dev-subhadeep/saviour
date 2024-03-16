@@ -8,7 +8,7 @@ import Card4 from "../../public/images/card_4.png"
 
 const Roadmap = () => {
   return (
-    <section className="bg-[url('../../public/images/bg3.png')] bg-black py-20">
+    <section className="bg-[url('../../public/images/bg4.png')] bg-black py-20">
       <h1 className="text-center text-4xl text-white mb-20">Road Map</h1>
       <div className="flex overflow-x-scroll sm:overflow-hidden container mx-auto justify-center gap-10">
         <div className="flex gap-10 container mx-auto justify-end">
