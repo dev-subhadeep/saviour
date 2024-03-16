@@ -7,7 +7,7 @@ import NinjaIntro from "../../public/images/ninja.png"
 const Introduction = () => {
   return (
     <section className="bg-background text-white">
-      <div className="container mx-auto grid justify-center items-center grid-cols-2 grid-rows-3">
+      <div className="container mx-auto grid justify-center items-center p-10">
         <div className="row-span-3 flex justify-center">
           <Image src={NinjaIntro} height={200} width={300} alt="Ninja" />
         </div>
@@ -21,7 +21,7 @@ const Introduction = () => {
           save the future! Our mission is to empower everyone to share wealth
           and succeed. read more...
         </div>
-        <div>
+        <div className="mt-2">
           <Button>
             Documents <ChevronDown />
           </Button>

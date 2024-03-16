@@ -15,9 +15,8 @@ const FAQ = () => {
         <div className="flex flex-col gap-4">
           {faqs.map((faq: FAQ) => (
             <Accordion
-              key={faq.id}
               title={
-                <div className="flex gap-8">
+                <div className="flex gap-4">
                   <span>{faq.id}</span>
                   <span>{faq.question}</span>
                 </div>

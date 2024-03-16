@@ -14,7 +14,7 @@ const Accordion = ({ title, description }: Accordion) => {
     <div className="border border-primary rounded-lg">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex justify-between items-center px-4 py-2"
+        className="w-full flex justify-between items-center p-4"
       >
         <span>{title}</span>
         <span>{isOpen ? <ChevronUp /> : <ChevronDown />}</span>

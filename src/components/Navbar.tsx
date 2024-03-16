@@ -15,7 +15,7 @@ const Navbar = () => {
         <Image src={Logo} alt="Saviour Logo" height={50} width={50} />
         <span>Saviour</span>
       </div>
-      <div>
+      <div className="hidden">
         <Navlinks />
       </div>
       <div>

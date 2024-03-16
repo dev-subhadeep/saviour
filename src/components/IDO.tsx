@@ -5,11 +5,11 @@ import Presale from "./Presale"
 
 const IDO = () => {
   return (
-    <section className="bg-[url('../../public/images/bg2.png')] bg-black p-10 text-white flex flex-col gap-6">
+    <section className="bg-[url('../../public/images/bg2.png')] bg-right bg-cover bg-black p-10 text-white flex flex-col gap-6">
       <h2 className="text-4xl text-primary text-center">
         Participate in our IDO Event!
       </h2>
-      <div className="grid grid-cols-2 container mx-auto">
+      <div className="grid container mx-auto">
         <p>
           During our IDO event, you will gain early access to our revolutionary
           ecosystem, designed to empower everyone to share wealth and achieve
@@ -25,7 +25,7 @@ const IDO = () => {
         <TokenInfo />
       </div>
       <div>
-        <h3 className="text-center">
+        <h3 className="text-center text-xl uppercase">
           Become an affiliate & Earn 7% as Commission!
         </h3>
       </div>
