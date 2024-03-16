@@ -1,14 +1,16 @@
 import React from "react"
 import TokenInfo from "./TokenInfo"
+import LinkGenerator from "./LinkGenerator"
+import Presale from "./Presale"
 
 const IDO = () => {
   return (
-    <section className="bg-[url('../../public/images/bg2.png')] bg-black p-10">
+    <section className="bg-[url('../../public/images/bg2.png')] bg-black p-10 text-white flex flex-col gap-6">
       <h2 className="text-4xl text-primary text-center">
         Participate in our IDO Event!
       </h2>
       <div className="grid grid-cols-2 container mx-auto">
-        <p className="text-white">
+        <p>
           During our IDO event, you will gain early access to our revolutionary
           ecosystem, designed to empower everyone to share wealth and achieve
           success.{" "}
@@ -21,6 +23,17 @@ const IDO = () => {
       </div>
       <div>
         <TokenInfo />
+      </div>
+      <div>
+        <h3 className="text-center">
+          Become an affiliate & Earn 7% as Commission!
+        </h3>
+      </div>
+      <div>
+        <LinkGenerator />
+      </div>
+      <div>
+        <Presale />
       </div>
     </section>
   )

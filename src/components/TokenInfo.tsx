@@ -16,7 +16,9 @@ const TokenInfo = () => {
         illum laboriosam tempore accusamus? Eaque quasi, numquam ullam debitis
         reiciendis commodi?
       </div>
-      <Button>Connect Wallet</Button>
+      <div className="mt-6">
+        <Button>Connect Wallet</Button>
+      </div>
     </div>
   )
 }
