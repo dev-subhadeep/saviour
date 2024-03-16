@@ -3,8 +3,8 @@ import Button from "./ui/Button"
 
 const Presale = () => {
   return (
-    <div className="text-center flex flex-col border border-primary gap-4">
-      <div className="text-primary -my-6">
+    <div className="text-center flex flex-col border border-primary gap-4 py-6 rounded-xl">
+      <div className="text-primary -my-12">
         <span className="text-white bg-black rounded-sm border border-primary px-1 py-2 text-xl m-[2px]">
           0
         </span>
@@ -19,7 +19,7 @@ const Presale = () => {
           0
         </span>
       </div>
-      <h2 className="text-3xl font-bold mt-6">Presale 1</h2>
+      <h2 className="text-3xl font-bold mt-12">Presale 1</h2>
       <h3 className="text-2xl">1 Saviour = 0.657 USDT</h3>
       <div className="text-xl">
         <p>Next Stage Price = 0.723 USDT</p>
