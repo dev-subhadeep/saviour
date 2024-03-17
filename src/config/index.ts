@@ -3,15 +3,14 @@ import { defaultWagmiConfig } from "@web3modal/wagmi/react/config"
 import { cookieStorage, createStorage } from "wagmi"
 import { mainnet, sepolia } from "wagmi/chains"
 
-// Get projectId at https://cloud.walletconnect.com
-export const projectId = "05b20c581031dd96cb28cf1a5bd10704"
+export const projectId = process.env.WC_PROJECT_ID
 
 if (!projectId) throw new Error("Project ID is not defined")
 
 const metadata = {
-  name: "Web3Modal",
-  description: "Web3Modal Example",
-  url: "https://web3modal.com", // origin must match your domain & subdomain
+  name: "Saviour",
+  description: "Saviour",
+  url: "https://saviour-web3.vercel.app/", // origin must match your domain & subdomain
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 }
 
@@ -25,5 +24,4 @@ export const config = defaultWagmiConfig({
   storage: createStorage({
     storage: cookieStorage,
   }),
-  //   ...wagmiOptions, // Optional - Override createConfig parameters
 })
