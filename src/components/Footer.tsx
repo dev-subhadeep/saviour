@@ -18,7 +18,7 @@ const Footer = () => {
         </h2>
       </div>
       <div>
-        <ul className="flex gap-x-4 flex-wrap justify-center">
+        <ul className="flex gap-x-4 flex-wrap justify-center text-xs">
           <li>
             <Link href="#">Home</Link>
           </li>

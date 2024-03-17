@@ -2,6 +2,7 @@
 import React, { useState } from "react"
 import ChevronDown from "./ChevronDown"
 import ChevronUp from "./ChevronUp"
+import { shojumaru, zcool } from "@/lib/fonts"
 
 interface Accordion {
   title: React.ReactNode
@@ -16,7 +17,7 @@ const Accordion = ({ title, description }: Accordion) => {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex justify-between items-center p-4"
       >
-        <span>{title}</span>
+        <span className={shojumaru.className}>{title}</span>
         <span>{isOpen ? <ChevronUp /> : <ChevronDown />}</span>
       </button>
       <div
@@ -25,6 +26,7 @@ const Accordion = ({ title, description }: Accordion) => {
         }`}
       >
         <p
+          style={zcool.style}
           className={` bg-[#0F0F0F] px-4 py-2 rounded-xl ${
             isOpen ? `block` : `hidden`
           }`}

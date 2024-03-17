@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Inter, Shojumaru } from "next/font/google"
+import { Inter, Shojumaru, Poppins } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
@@ -11,7 +11,12 @@ import Web3ModalProvider from "@/context"
 import { headers } from "next/headers"
 
 const inter = Inter({ subsets: ["latin"] })
-const shojumaru = Shojumaru({ weight: "400", subsets: ["latin"] })
+const poppins = Poppins({ weight: "100", subsets: ["latin"] })
+const shojumaru = Shojumaru({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-shojumaru",
+})
 
 export const metadata: Metadata = {
   title: "Saviour",
@@ -27,7 +32,7 @@ export default function RootLayout({
   const initialState = cookieToInitialState(config, headers().get("cookie"))
   return (
     <html lang="en">
-      <body className={shojumaru.className}>
+      <body className={inter.className}>
         <Web3ModalProvider initialState={initialState}>
           <Header />
           {children}
