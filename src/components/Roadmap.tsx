@@ -19,8 +19,8 @@ const Roadmap = () => {
       >
         Road Map
       </h1>
-      <div className="flex overflow-x-scroll sm:overflow-hidden mx-auto justify-center gap-10 py-10">
-        <div className="flex gap-10 mx-auto justify-end">
+      <div className="flex mx-auto justify-center gap-10 px-5">
+        <div className="flex gap-10 overflow-x-auto">
           <CardT1
             title="Phase 1"
             description="Technical Readiness and Smart Contract Audit"
