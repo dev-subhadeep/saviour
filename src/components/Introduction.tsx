@@ -7,9 +7,9 @@ import NinjaIntro from "../../public/images/ninja.png"
 const Introduction = () => {
   return (
     <section className="bg-background text-white">
-      <div className="container mx-auto grid justify-center items-center p-10">
+      <div className="container mx-auto grid justify-center items-center p-10 sm:grid-cols-2">
         <div className="row-span-3 flex justify-center">
-          <Image src={NinjaIntro} height={200} width={300} alt="Ninja" />
+          <Image src={NinjaIntro} height={600} width={600} alt="Ninja" />
         </div>
         <div>
           <h2 className="text-4xl text-primary">Introduction</h2>
