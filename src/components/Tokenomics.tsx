@@ -2,14 +2,18 @@ import React from "react"
 import CardT2 from "./ui/CardT2"
 import Image from "next/image"
 import TokenomicsDiagram from "../../public/images/tokenomics.png"
+import { shojumaru, zcool } from "@/lib/fonts"
 
 const Tokenomics = () => {
   return (
     <section
+      style={zcool.style}
       id="tokenomics"
       className="bg-[url('../../public/images/bg3.png')] bg-black py-20"
     >
-      <h2 className="text-4xl text-center text-primary">Tokenomics</h2>
+      <h2 style={shojumaru.style} className="text-4xl text-center text-primary">
+        Tokenomics
+      </h2>
       <div className=" container mx-auto">
         <div className="sm:flex justify-center">
           <CardT2 title="Token Details" className="p-10">

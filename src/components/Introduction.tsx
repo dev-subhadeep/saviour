@@ -4,13 +4,20 @@ import ChevronDown from "./ui/ChevronDown"
 import Image from "next/image"
 import NinjaIntro from "../../public/images/ninja.png"
 import Link from "next/link"
+import { zcool } from "@/lib/fonts"
+import { shojumaru } from "@/lib/fonts"
 
 const Introduction = () => {
   return (
     <section className="bg-background text-white text-center">
       <div className="container mx-auto grid sm:grid-cols-2 sm:justify-center py-20 px-6 sm:py-0">
         <div>
-          <h1 className="text-4xl sm:hidden text-shojumaru">Introduction</h1>
+          <h1
+            style={shojumaru.style}
+            className="text-4xl sm:hidden text-primary"
+          >
+            Introduction
+          </h1>
           <Image
             src={NinjaIntro}
             height={600}
@@ -19,8 +26,13 @@ const Introduction = () => {
           />
         </div>
         <div className="flex h-full flex-col gap-10 sm:self-start justify-center">
-          <h1 className="text-4xl hidden sm:block">Introduction</h1>
-          <p>
+          <h1
+            style={shojumaru.style}
+            className="text-4xl hidden sm:block text-primary"
+          >
+            Introduction
+          </h1>
+          <p style={zcool.style}>
             We&apos;ve all been in the mud once, and now we&apos;ve decided to
             fight it out. Pay tribute to those pioneers of WEB3 and the warriors
             who dedicated their love to the blockchain. Save the lucky ones
@@ -30,7 +42,7 @@ const Introduction = () => {
               read more...
             </Link>
           </p>
-          <div className="flex justify-center">
+          <div style={zcool.style} className="flex justify-center">
             <Button>
               Documents <ChevronDown />
             </Button>

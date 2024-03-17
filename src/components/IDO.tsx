@@ -3,15 +3,20 @@ import TokenInfo from "./TokenInfo"
 import LinkGenerator from "./LinkGenerator"
 import Presale from "./Presale"
 import ConnectButton from "./ConnectButton"
+import { shojumaru, zcool } from "@/lib/fonts"
 
 const IDO = () => {
   return (
     <section
+      style={zcool.style}
       id="ido"
       className="bg-[url('../../public/images/bg2.png')] bg-right bg-cover bg-black py-20 text-white flex flex-col gap-6"
     >
       <div className="container mx-auto">
-        <h2 className="text-4xl text-primary text-center my-10">
+        <h2
+          style={shojumaru.style}
+          className="text-4xl text-primary text-center my-10"
+        >
           Participate in our IDO Event!
         </h2>
         <div className="grid md:grid-cols-5 gap-10 items-center">

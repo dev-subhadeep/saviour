@@ -7,12 +7,14 @@ import Bars from "./ui/Bars"
 import ConnectButton from "./ConnectButton"
 import ChevronDown from "./ui/ChevronDown"
 import Link from "next/link"
+import { zcool } from "@/lib/fonts"
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   return (
     <>
       <header
+        style={zcool.style}
         className={`fixed flex justify-between items-center p-6 w-full text-white z-20 ${
           isSidebarOpen ? ` bg-background` : ``
         }`}
@@ -26,7 +28,7 @@ const Header = () => {
           </button>
           <Link className="flex gap-2 items-center" href={"/"}>
             <Image src={Logo} alt="Saviour Logo" height={50} width={50} />
-            <span className="font-sans">Saviour</span>
+            <span>Saviour</span>
           </Link>
         </div>
         <div className="hidden sm:flex">

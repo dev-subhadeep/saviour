@@ -17,9 +17,6 @@ const config: Config = {
         primary: "#ED0137",
         background: "#0A0A0A",
       },
-      fontFamily: {
-        shojumaru: "'Shojumaru', sans-serif",
-      },
     },
   },
   plugins: [],
