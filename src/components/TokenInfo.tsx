@@ -6,7 +6,7 @@ const TokenInfo = () => {
   return (
     <CardT2 title="Token Info">
       <div className="grid grid-cols-3 gap-4 px-2">
-        <div className="col-span-2">Total Token Supply</div>
+        <div className="col-span-2 --zcool">Total Token Supply</div>
         <div>20%</div>
         <div className="col-span-2">Soft Cap</div>
         <div>200 BNB</div>
