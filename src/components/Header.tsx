@@ -5,6 +5,7 @@ import Image from "next/image"
 import Navlinks from "./Navbar"
 import Bars from "./ui/Bars"
 import Button from "./ui/Button"
+import ConnectButton from "./ConnectButton"
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
@@ -29,7 +30,7 @@ const Header = () => {
           <Navlinks />
         </div>
         <div>
-          <Button>Connect Wallet</Button>
+          <ConnectButton />
         </div>
       </header>
     </>

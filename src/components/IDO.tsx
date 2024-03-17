@@ -2,6 +2,7 @@ import React from "react"
 import TokenInfo from "./TokenInfo"
 import LinkGenerator from "./LinkGenerator"
 import Presale from "./Presale"
+import ConnectButton from "./ConnectButton"
 
 const IDO = () => {
   return (
@@ -26,6 +27,9 @@ const IDO = () => {
             </div>
             <div>
               <TokenInfo />
+              <div className="flex justify-center items-center mt-8">
+                <ConnectButton />
+              </div>
             </div>
             <div>
               <h3 className="text-center text-xl uppercase">
