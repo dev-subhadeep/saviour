@@ -21,8 +21,8 @@ const Accordion = ({ title, description }: Accordion) => {
         <span>{isOpen ? <ChevronUp /> : <ChevronDown />}</span>
       </button>
       <div
-        className={`transition-all ease-in-out duration-300 px-4 py-2 ${
-          isOpen ? `h-auto` : `h-0 overflow-hidden py-0`
+        className={`transition-all ease-in-out duration-300 px-4 ${
+          isOpen ? `h-auto py-2 ` : `h-0 overflow-hidden py-0`
         }`}
       >
         <p
