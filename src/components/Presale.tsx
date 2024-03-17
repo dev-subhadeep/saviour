@@ -5,17 +5,20 @@ const Presale = () => {
   return (
     <div className="text-center flex flex-col border border-primary gap-4 py-6 rounded-xl mt-4">
       <div className="text-primary -my-12">
-        <span className="text-white bg-black rounded-sm border border-primary px-1 py-2 text-xl m-[2px]">
+        <span className="font-sans text-white bg-black rounded-sm border border-primary px-3 py-2 text-4xl m-[5px]">
           0
         </span>
-        <span className="text-white bg-black rounded-sm border border-primary px-1 py-2 text-xl m-[2px]">
+        <span className="font-sans text-white bg-black rounded-sm border border-primary px-3 py-2 text-4xl m-[5px]">
           0
         </span>
-        <span className="text-primary text-[20pt] font-extrabold"> : </span>
-        <span className="text-white bg-black rounded-sm border border-primary px-1 py-2 text-xl m-[2px]">
+        <span className="font-sans text-primary text-[20pt] font-extrabold">
+          {" "}
+          :{" "}
+        </span>
+        <span className="font-sans text-white bg-black rounded-sm border border-primary px-3 py-2 text-4xl m-[5px]">
           0
         </span>
-        <span className="text-white bg-black rounded-sm border border-primary px-1 py-2 text-xl m-[2px]">
+        <span className="font-sans text-white bg-black rounded-sm border border-primary px-3 py-2 text-4xl m-[5px]">
           0
         </span>
       </div>
