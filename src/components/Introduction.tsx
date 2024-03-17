@@ -8,9 +8,9 @@ import Link from "next/link"
 const Introduction = () => {
   return (
     <section className="bg-background text-white text-center">
-      <div className="grid sm:grid-cols-2 sm:justify-center py-20 px-6 sm:py-0">
+      <div className="container mx-auto grid sm:grid-cols-2 sm:justify-center py-20 px-6 sm:py-0">
         <div>
-          <h1 className="text-4xl sm:hidden">Introduction</h1>
+          <h1 className="text-4xl sm:hidden text-shojumaru">Introduction</h1>
           <Image
             src={NinjaIntro}
             height={600}

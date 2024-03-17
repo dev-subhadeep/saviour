@@ -4,7 +4,6 @@ import Logo from "../../public/saviour-logo.png"
 import Image from "next/image"
 import Navlinks from "./Navbar"
 import Bars from "./ui/Bars"
-import Button from "./ui/Button"
 import ConnectButton from "./ConnectButton"
 
 const Header = () => {
@@ -24,7 +23,7 @@ const Header = () => {
             <Bars />
           </button>
           <Image src={Logo} alt="Saviour Logo" height={50} width={50} />
-          <span>Saviour</span>
+          <span className="font-sans">Saviour</span>
         </div>
         <div className="hidden sm:flex">
           <Navlinks />

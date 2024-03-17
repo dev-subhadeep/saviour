@@ -27,7 +27,7 @@ export default function RootLayout({
   const initialState = cookieToInitialState(config, headers().get("cookie"))
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={shojumaru.className}>
         <Web3ModalProvider initialState={initialState}>
           <Header />
           {children}
