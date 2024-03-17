@@ -23,6 +23,7 @@ const FAQ = () => {
             <h2 className="hidden sm:flex justify-center text-2xl">FAQ</h2>
             {faqs.map((faq: FAQ) => (
               <Accordion
+                key={faq.id}
                 title={
                   <div className="flex gap-4">
                     <span>{faq.id}</span>

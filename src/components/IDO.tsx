@@ -5,7 +5,7 @@ import Presale from "./Presale"
 
 const IDO = () => {
   return (
-    <section className="bg-[url('../../public/images/bg2.png')] bg-right bg-cover bg-black p-20 text-white flex flex-col gap-6">
+    <section className="bg-[url('../../public/images/bg2.png')] bg-right bg-cover bg-black py-20 text-white flex flex-col gap-6">
       <div className="container mx-auto">
         <h2 className="text-4xl text-primary text-center my-10">
           Participate in our IDO Event!
@@ -18,9 +18,9 @@ const IDO = () => {
                 revolutionary ecosystem, designed to empower everyone to share
                 wealth and achieve success.{" "}
                 <span className="sm:hidden">
-                  By participating in this exclusive event, you'll secure your
-                  position at the forefront of blockchain innovation, with the
-                  potential for high rewards.
+                  By participating in this exclusive event, you&apos;ll secure
+                  your position at the forefront of blockchain innovation, with
+                  the potential for high rewards.
                 </span>
               </p>
             </div>
@@ -32,11 +32,11 @@ const IDO = () => {
                 Become an affiliate & Earn 7% as Commission!
               </h3>
             </div>
-            <div>
+            <div className="px-6">
               <LinkGenerator />
             </div>
           </div>
-          <div className="md:col-span-3">
+          <div className="md:col-span-3 px-4">
             <Presale />
           </div>
         </div>
