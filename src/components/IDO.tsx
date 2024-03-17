@@ -17,7 +17,7 @@ const IDO = () => {
         <div className="grid md:grid-cols-5 gap-10 items-center">
           <div className="flex flex-col gap-10 md:col-span-2">
             <div className="grid container mx-auto">
-              <p className="text-center">
+              <p className="text-center px-4">
                 During our IDO event, you will gain early access to our
                 revolutionary ecosystem, designed to empower everyone to share
                 wealth and achieve success.{" "}
@@ -28,7 +28,7 @@ const IDO = () => {
                 </span>
               </p>
             </div>
-            <div>
+            <div className="px-4">
               <TokenInfo />
               <div className="flex justify-center items-center mt-8">
                 <ConnectButton />

@@ -13,8 +13,8 @@ const Roadmap = () => {
       className="bg-[url('../../public/images/bg4.png')] bg-cover bg-black py-20"
     >
       <h1 className="text-center text-4xl text-white mb-20">Road Map</h1>
-      <div className="flex overflow-x-scroll sm:overflow-hidden mx-auto justify-center gap-10">
-        <div className="flex gap-10 container mx-auto justify-end">
+      <div className="flex overflow-x-scroll sm:overflow-hidden mx-auto justify-center gap-10 py-10">
+        <div className="flex gap-10 mx-auto justify-end">
           <CardT1
             title="Phase 1"
             description="Technical Readiness and Smart Contract Audit"
@@ -25,8 +25,7 @@ const Roadmap = () => {
             description="Increase Liquidity and Trading Volume"
             image={Card2}
           />
-        </div>
-        <div className="flex gap-10 container mx-auto justify-start">
+
           <CardT1
             title="Phase 3"
             description="Community Building and Marketing"
