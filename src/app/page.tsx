@@ -4,12 +4,11 @@ import IDO from "@/components/IDO"
 import Introduction from "@/components/Introduction"
 import Roadmap from "@/components/Roadmap"
 import Tokenomics from "@/components/Tokenomics"
-import Image from "next/image"
 
 export default function Home() {
   return (
     <main>
-      {/* <Hero /> */}
+      <Hero />
       <Introduction />
       <IDO />
       <Tokenomics />
