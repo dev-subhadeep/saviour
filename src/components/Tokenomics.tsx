@@ -5,7 +5,10 @@ import TokenomicsDiagram from "../../public/images/tokenomics.png"
 
 const Tokenomics = () => {
   return (
-    <section className="bg-[url('../../public/images/bg3.png')] bg-black py-20">
+    <section
+      id="tokenomics"
+      className="bg-[url('../../public/images/bg3.png')] bg-black py-20"
+    >
       <h2 className="text-4xl text-center text-primary">Tokenomics</h2>
       <div className=" container mx-auto">
         <div className="sm:flex justify-center">

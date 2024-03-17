@@ -6,7 +6,10 @@ import ConnectButton from "./ConnectButton"
 
 const IDO = () => {
   return (
-    <section className="bg-[url('../../public/images/bg2.png')] bg-right bg-cover bg-black py-20 text-white flex flex-col gap-6">
+    <section
+      id="ido"
+      className="bg-[url('../../public/images/bg2.png')] bg-right bg-cover bg-black py-20 text-white flex flex-col gap-6"
+    >
       <div className="container mx-auto">
         <h2 className="text-4xl text-primary text-center my-10">
           Participate in our IDO Event!
