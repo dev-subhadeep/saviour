@@ -4,14 +4,14 @@ import Button from "./ui/Button"
 const Presale = () => {
   return (
     <div className="text-center flex flex-col border border-primary gap-4 py-6 rounded-xl mt-4">
-      <div className="text-primary -my-12">
+      <div className="text-primary -my-[74px]">
         <span className="font-sans text-white bg-black rounded-sm border border-primary px-3 py-2 text-4xl m-[5px]">
           0
         </span>
         <span className="font-sans text-white bg-black rounded-sm border border-primary px-3 py-2 text-4xl m-[5px]">
           0
         </span>
-        <span className="font-sans text-primary text-[20pt] font-extrabold">
+        <span className="font-sans text-primary text-[40pt] font-extrabold">
           {" "}
           :{" "}
         </span>
@@ -22,7 +22,7 @@ const Presale = () => {
           0
         </span>
       </div>
-      <h2 className="text-3xl font-bold mt-12">Presale 1</h2>
+      <h2 className="text-3xl font-bold mt-20">Presale 1</h2>
       <h3 className="text-primary sm:text-white sm:text-2xl">
         1 Saviour = 0.657 USDT
       </h3>
