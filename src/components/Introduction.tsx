@@ -28,11 +28,11 @@ const Introduction = () => {
         <div className="flex h-full flex-col gap-10 sm:self-start justify-center">
           <h1
             style={shojumaru.style}
-            className="text-4xl hidden sm:block text-primary"
+            className="text-4xl hidden sm:block text-left text-primary"
           >
             Introduction
           </h1>
-          <p style={zcool.style}>
+          <p style={zcool.style} className="sm:text-left">
             We&apos;ve all been in the mud once, and now we&apos;ve decided to
             fight it out. Pay tribute to those pioneers of WEB3 and the warriors
             who dedicated their love to the blockchain. Save the lucky ones
@@ -42,7 +42,10 @@ const Introduction = () => {
               read more...
             </Link>
           </p>
-          <div style={zcool.style} className="flex justify-center">
+          <div
+            style={zcool.style}
+            className="flex justify-center sm:justify-start"
+          >
             <Button>
               Documents <ChevronDown />
             </Button>
